@@ -1,27 +1,10 @@
-19:38:55 **** Incremental Build of configuration Debug for project Driver-and-Firmware ****
-make -j16 all 
-arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -I"/media/kj-vivek/Projects/Driver-and-Firmware-STM32Disc/Drivers-and-Firmware-STM32Disc/Driver-and-Firmware/Drivers/inc" -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/media/kj-vivek/Projects/Driver-and-Firmware-STM32Disc/Drivers-and-Firmware-STM32Disc/Driver-and-Firmware/Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
-arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/media/kj-vivek/Projects/Driver-and-Firmware-STM32Disc/Drivers-and-Firmware-STM32Disc/Driver-and-Firmware/Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
-arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/media/kj-vivek/Projects/Driver-and-Firmware-STM32Disc/Drivers-and-Firmware-STM32Disc/Driver-and-Firmware/Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
-arm-none-eabi-gcc "../Drivers/src/ADC_STM32_DRIVER.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/media/kj-vivek/Projects/Driver-and-Firmware-STM32Disc/Drivers-and-Firmware-STM32Disc/Driver-and-Firmware/Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/src/ADC_STM32_DRIVER.d" -MT"Drivers/src/ADC_STM32_DRIVER.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/src/ADC_STM32_DRIVER.o"
-arm-none-eabi-gcc "../Drivers/src/GPIO_STM32_DRIVER.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/media/kj-vivek/Projects/Driver-and-Firmware-STM32Disc/Drivers-and-Firmware-STM32Disc/Driver-and-Firmware/Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/src/GPIO_STM32_DRIVER.d" -MT"Drivers/src/GPIO_STM32_DRIVER.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/src/GPIO_STM32_DRIVER.o"
-arm-none-eabi-gcc "../Drivers/src/I2C_STM32_DRIVER.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/media/kj-vivek/Projects/Driver-and-Firmware-STM32Disc/Drivers-and-Firmware-STM32Disc/Driver-and-Firmware/Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/src/I2C_STM32_DRIVER.d" -MT"Drivers/src/I2C_STM32_DRIVER.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/src/I2C_STM32_DRIVER.o"
-arm-none-eabi-gcc "../Drivers/src/TIMER25_STM32_DRIVER.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/media/kj-vivek/Projects/Driver-and-Firmware-STM32Disc/Drivers-and-Firmware-STM32Disc/Driver-and-Firmware/Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/src/TIMER25_STM32_DRIVER.d" -MT"Drivers/src/TIMER25_STM32_DRIVER.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/src/TIMER25_STM32_DRIVER.o"
-../Src/main.c:23:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
-   23 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
-      |    ^~~~~~~
-arm-none-eabi-gcc -o "Driver-and-Firmware.elf" @"objects.list"   -mcpu=cortex-m4 -T"/media/kj-vivek/Projects/Driver-and-Firmware-STM32Disc/Drivers-and-Firmware-STM32Disc/Driver-and-Firmware/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Driver-and-Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Driver-and-Firmware.elf
- 
-arm-none-eabi-size  Driver-and-Firmware.elf 
-arm-none-eabi-objdump -h -S Driver-and-Firmware.elf  > "Driver-and-Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-   1808	      0	   1568	   3376	    d30	Driver-and-Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Driver-and-Firmware.list
+19:41:37 **** Clean-only build of configuration Debug for project Driver-and-Firmware ****
+make -j16 clean 
+rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf ./Drivers/src/ADC_STM32_DRIVER.cyclo ./Drivers/src/ADC_STM32_DRIVER.d ./Drivers/src/ADC_STM32_DRIVER.o ./Drivers/src/ADC_STM32_DRIVER.su ./Drivers/src/GPIO_STM32_DRIVER.cyclo ./Drivers/src/GPIO_STM32_DRIVER.d ./Drivers/src/GPIO_STM32_DRIVER.o ./Drivers/src/GPIO_STM32_DRIVER.su ./Drivers/src/I2C_STM32_DRIVER.cyclo ./Drivers/src/I2C_STM32_DRIVER.d ./Drivers/src/I2C_STM32_DRIVER.o ./Drivers/src/I2C_STM32_DRIVER.su ./Drivers/src/TIMER25_STM32_DRIVER.cyclo ./Drivers/src/TIMER25_STM32_DRIVER.d ./Drivers/src/TIMER25_STM32_DRIVER.o ./Drivers/src/TIMER25_STM32_DRIVER.su
+rm -rf Driver-and-Firmware.elf Driver-and-Firmware.list Driver-and-Firmware.map default.size.stdout
  
 
-19:38:56 Build Finished. 0 errors, 1 warnings. (took 349ms)
+19:41:37 Build Finished. 0 errors, 0 warnings. (took 300ms)
 

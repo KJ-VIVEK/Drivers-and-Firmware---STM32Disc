@@ -43,3 +43,9 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-12-28 19:38:37.423
 !MESSAGE Indexed 'Driver-and-Firmware' (4 sources, 57 headers) in 0.251 sec: 2,154 declarations; 3,600 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.035%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 19:41:37.423
+!MESSAGE Indexed 'Driver-and-Firmware' (3 sources, 58 headers) in 0.16 sec: 2,117 declarations; 3,013 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.039%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 19:41:37.758
+!MESSAGE Indexed 'Driver-and-Firmware' (4 sources, 57 headers) in 0.232 sec: 2,154 declarations; 3,600 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.035%)
