@@ -1,0 +1,45 @@
+!SESSION 2024-12-28 17:20:14.306 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-28 17:20:22.102
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-28 17:20:22.103
+!MESSAGE Log4j2 initialized with config file /media/kj-vivek/Projects/Driver-and-Firmware-STM32Disc/Drivers-and-Firmware-STM32Disc/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-28 17:20:24.579
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 17:23:00.372
+!MESSAGE Indexed 'Driver-and-Firmware' (3 sources, 53 headers) in 1.11 sec: 1,950 declarations; 2,836 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 17:25:08.958
+!MESSAGE Indexed 'Driver-and-Firmware' (7 sources, 58 headers) in 0.292 sec: 2,404 declarations; 4,896 references; 2 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.027%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 17:29:22.923
+!MESSAGE Indexed 'Driver-and-Firmware' (3 sources, 59 headers) in 0.288 sec: 2,254 declarations; 3,114 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.037%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 17:29:23.331
+!MESSAGE Indexed 'Driver-and-Firmware' (7 sources, 58 headers) in 0.314 sec: 2,405 declarations; 4,933 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.027%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 19:31:52.153
+!MESSAGE Indexed 'Driver-and-Firmware' (3 sources, 59 headers) in 0.246 sec: 2,245 declarations; 3,071 references; 0 unresolved inclusions; 2 syntax errors; 36 unresolved names (0.67%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 19:31:52.518
+!MESSAGE Indexed 'Driver-and-Firmware' (7 sources, 58 headers) in 0.27 sec: 2,396 declarations; 4,744 references; 0 unresolved inclusions; 2 syntax errors; 150 unresolved names (2.1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 19:37:29.945
+!MESSAGE Indexed 'Driver-and-Firmware' (3 sources, 58 headers) in 0.234 sec: 2,166 declarations; 3,035 references; 0 unresolved inclusions; 2 syntax errors; 14 unresolved names (0.27%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 19:37:30.312
+!MESSAGE Indexed 'Driver-and-Firmware' (4 sources, 57 headers) in 0.273 sec: 2,203 declarations; 3,622 references; 0 unresolved inclusions; 4 syntax errors; 14 unresolved names (0.24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 19:38:37.060
+!MESSAGE Indexed 'Driver-and-Firmware' (3 sources, 58 headers) in 0.229 sec: 2,117 declarations; 3,013 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.039%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-28 19:38:37.423
+!MESSAGE Indexed 'Driver-and-Firmware' (4 sources, 57 headers) in 0.251 sec: 2,154 declarations; 3,600 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.035%)

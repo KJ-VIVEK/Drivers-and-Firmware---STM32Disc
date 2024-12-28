@@ -1,0 +1,10 @@
+../Drivers/src/GPIO_STM32_DRIVER.c:23:6:GPIO_PClkCtrl	22
+../Drivers/src/GPIO_STM32_DRIVER.c:95:6:GPIO_Init	11
+../Drivers/src/GPIO_STM32_DRIVER.c:192:6:GPIO_DeInit	7
+../Drivers/src/GPIO_STM32_DRIVER.c:228:9:GPIO_ReadPin	1
+../Drivers/src/GPIO_STM32_DRIVER.c:246:6:GPIO_Toggle	1
+../Drivers/src/GPIO_STM32_DRIVER.c:257:6:GPIO_High	1
+../Drivers/src/GPIO_STM32_DRIVER.c:268:6:GPIO_Low	1
+../Drivers/src/GPIO_STM32_DRIVER.c:283:6:GPIO_IRQInterruptConfig	12
+../Drivers/src/GPIO_STM32_DRIVER.c:334:6:GPIO_IRQHandling	2
+../Drivers/src/GPIO_STM32_DRIVER.c:350:6:GPIO_IRQPriorityconfig	1
